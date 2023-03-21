@@ -15,13 +15,14 @@
         <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
         <img src="imagens/foto-g.png" alt="Imagem flexível">  <!--Imagem padrão, caso não atenda os requisitos anteriores-->
     </picture>
+
     <h1>Reproduzindo Áudios</h1>
     <p>Vamos aprender a reproduzir áudios em HTML5</p>
     <!--Formatos compatíveis: MPeg WAV OGG
     Param: autoplay controls loop preload-->
     <p>Ouça agora Happy Mistake</p>
     <audio src="midia/happy-mistake.mp3" controls></audio>
-    <!-- preload, precarregar o áudio. Param: metadata, auto, none
+    <!-- preload = precarregar o áudio. Param: metadata, auto, none
         com o preload auto, o áudio só vai reproduzir após todo o áudio ser carregado-->
     <p>Ouça agora o Guanacast ep. 33</p>
     <audio preload="metadata" controls>
@@ -30,5 +31,6 @@
         <source src="midia/guanacast-33.wav" type="audio/wav">
         <p>Infelizmente seu navegador não consegue reproduzir áudio. Você pode <a href="midia/guanacast-33.mp3" download="midia/guanacast-33.mp3">baixar-lo aqui</a> para escutar</p>
     </audio>
+
 </body>
 </html>

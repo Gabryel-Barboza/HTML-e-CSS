@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos Com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Videos Hospedados Localmente</h1>
+    <p>Esse video está hospedado na minha própria máquina.</p>
+    <!--Funciona de forma parecida com o Picture, param poster = thumbnail do video
+    controList = indicar o que aparece nos controles do video-->
+    <video width="560" controls loop poster="midia/sea-poster-converted.jpg" controlsList="nodownload">
+        <source src="midia/sea-video-converted.mp4" type="video/mp4">
+        <source src="midia/sea-video.ogv" type="video/ogg">
+        <p>Infelizmente, o seu navegador não é compatível com a reprodução de video.</p>
+    </video>
+    <h1>Inserindo Videos Hospedados no Youtube</h1>
+    <p>Esse video foi feito pelo professor Gustavo Guanabara, do canal Curso em Video.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1>Inserindo Videos Hospedados no Vimeo</h1>
+    <p>Esse video está hospedado no Vimeo, feito pelo animador</p>
+    <iframe src="https://player.vimeo.com/video/806256911?h=5df21fd8a7&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/806256911">Every Human Life</a> from <a href="https://vimeo.com/aimcreativestudios">AIM Creative Studios</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+</html>
