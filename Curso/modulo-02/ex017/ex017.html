@@ -17,22 +17,46 @@
             font-family: serif;		    -> qualquer fonte com serifa
             font-family: monospace;     -> qualquer fonte monoespaçada
 
-            Safe combination:
+            Web Safe combination:
 
             Se não tiver uma opção de fonte, passa para a seguinte. (Pesquisar mais: CSS web safe font combinations). 
 
             Ex:	font-family: Arial, Helvetica, sans-serif;
                 font-family: 'Times New Roman', Times, serif;
+           */
 
-            *Dica: Após "font-family:", ao clicar Ctrl + Espaço, o VS Code sugere as principais safe combinations. */
+            /* lighter normal bold bolder
+            font-weight: normal;
+            As seguintes configurações devem ser suportadas pela família da fonte
+            
+            font-style: italic;
+            font-weight: 800;
+            font-size: 1.2em;
+            text-decoration: underline;*/
+            
+            /* a shorthand font condensa as declarações em 1
+            style, weight, size, family*/
+            font: italic bolder 1.2em Arial, sans-serif; 
         }
 
         h1 {
             font-family: "Times New Roman", Times, serif;
+            /*
+            Medidas Absolutas
+                cm(centímetro), mm(milímetro), in(polegada), px(pixel), pt(ponto), pc(paica)
+                Medidas que podem ter diferenças entre os dispositivos, devido a tamanhos diferentes. Ex: Telas de Retina que usam 4:1 de pixel. E pt e pc são medidas de papel(Word)
+
+            Medidas Relativas
+                em(relativo a altura M/body), ex(altura x), rem(tamanho root/html), vw(largura viewport), vh(altura viewport), %
+            Recomendações W3C para fontes: px e em
+            16px ~= 1em para configs padrão, caso mude as configs, a relação também muda
+             */
+            font-size: 0.25in;
         }
 
         h2 {
             font-family: Times;
+            font-size: 1.5em;
         }
 
     </style>
