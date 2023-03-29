@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: #79EA55;
+    font: normal normal 1em Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #376B27;
+}
+
+h1#principal { /*nome do elemento opcional*/
+    text-align: center;
+    color: white;
+    background-color: #376B27;
+}
+
+h2 {
+    color: #57AB3E;
+}
+
+/*Para classes, recomendável sem o nome do elemento*/
+.basico {
+    color: #57AB3E;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: #8eab3e;
+}
+
+.avancado {
+    color: #ab4b3e;
+}
+
+.destaque {
+    background-color: rgba(196, 196, 30, 0.555);
+}
