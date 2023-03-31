@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <link rel="shortcut icon" href="../../../Imagens/cursoemvideo.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            padding: 5px;
+            /*box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.429);*/
+        }
+
+        nav {
+            background-color: rgb(99, 99, 99);
+            padding: 3px;
+            /*deslocamento horizontal, des. vertical, espalhamento/blur, sombra*/
+            box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.315); 
+            /*Param opcional: inset no inicio(outset padrão), extensão da sombra
+            Usar dev-tools com box-shadow*/
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        nav > a::after {
+            content: '[link]';
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.331);
+            border-radius: 10px 0px; /*arredondamento, superior esquerdo superior direito inferior direito inferior esquerdo*/
+        }
+
+        article {
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(189, 189, 189);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p { 
+            margin: 0;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 20px auto;
+            border-radius: 50%;
+            background-color: aliceblue;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.315);
+            animation: float 3s ease-in-out infinite
+        }
+
+      /*Código tirado dos comentários do video "Caixas com vértices arredondados"*/
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-25px)
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <!--<div>
+        <div id="cabecalho">
+            <h1></h1>
+        </div>
+        <div id="conteudo">
+            <p></p>
+        </div>
+        <div id="rodape">
+
+        </div>
+    </div>  Não semântico, mas funcional-->
+    <!--Analise cada tag junto com seu respectivo css, recomendo usar o atalho ctrl+]-->
+    <header>
+        <h1>Meu site com Grouping Tags</h1>
+        <nav>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias Lorem</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex iure consequuntur officiis, quisquam blanditiis cum totam adipisci necessitatibus tempora suscipit dolore debitis. Perferendis molestias veniam dolor accusantium consectetur accusamus repellat.</p>
+                <aside>
+                    <p>Artigo escrito por Gabryel Barboza</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido durante o Curso de HTML5 do <a href="https://youtube.com/cursoemvideo" rel="external" target="_blank">Curso em Video</a></p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>

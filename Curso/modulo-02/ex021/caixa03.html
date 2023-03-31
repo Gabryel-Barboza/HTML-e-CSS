@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda Personalizada</title>
+    <link rel="shortcut icon" href="../../../Imagens/cursoemvideo.ico" type="image/x-icon">
+    <style>
+        h1 {
+            border: 20px solid black;
+            padding: 10px;
+            /*Colocando uma imagem personalizada como borda */
+            border-image-source: url('../../../Imagens/borda.png');
+            border-image-repeat: round; /*repeat = repetir visalização, stretch = esticar vizualização, round*/
+            border-image-slice: 39; /*usar dev-tools para achar valor ideal*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Borda</h1>
+</body>
+</html>

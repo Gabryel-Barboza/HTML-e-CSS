@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <link rel="shortcut icon" href="../../../Imagens/cursoemvideo.ico" type="image/x-icon">
+    <style>
+        h1 {
+            background-color: lightgray;
+            /*Box-sizing*/
+            width: 300px;
+            height: 300px;
+            /*shorthands*/
+            border: 10px solid darkslategray;
+            /*
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;*/
+            padding: 10px 20px;
+            /*
+            padding-top: 10px; 
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding: 10px 10px 10px 10px;
+            Se o shorthand ter o mesmo valor nos 4, pode simplificar informando apenas 1
+            padding: 10px;
+            Também pode informar somente o vertical e horizontal
+            */
+           margin: 20px auto 40px auto;
+            /*
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+            margin: 20px 20px 40px 20px;
+            Para centralizar uma caixa
+            margin: auto;*/
+            outline: 5px dashed salmon;
+            /*outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;*/
+        }
+
+        a {
+            border: 10px solid red;
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: red;*/
+            padding: 10px;
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;*/
+        }
+
+        h2 {
+            /*width, height e margin não funcionam em inline*/
+            width: 300px;
+            height: 300px;
+            padding: 10px;
+            border: 10px solid darkslategray;
+            margin: 40px auto;
+            /* block, inline, inline-block*/
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona com DevTools.</p>
+    <h2>Tranformando Box-level em Inline-level</h2>
+</body>
+</html>
