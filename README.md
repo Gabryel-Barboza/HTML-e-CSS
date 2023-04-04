@@ -2,7 +2,7 @@
  Repositório com os exercicíos feitos do curso de [HTML5 e CSS3 do Guanabara](https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n) - **5 Módulos de 40 Horas** <br>
  
 ## Módulo 01
- 
+ <pre>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex001/">Exercício 001</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex002/">Exercício 002</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex003/">Exercício 003</a>
@@ -18,14 +18,16 @@
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex012/">Exercício 012</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex013/">Exercício 013</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex014/">Exercício 014</a>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex015/">Exercício 015</a> <br>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex015/">Exercício 015</a>
+ </pre>
  
 ## Módulo 02
-
+ <pre>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/ex016/">Exercício 016</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/ex017/">Exercício 017</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/ex018/">Exercício 018</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/ex019/">Exercício 019</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/ex020/">Exercício 020</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/ex021/">Exercício 021</a>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/exresponsividade/">Exercício Responsividade</a> <br>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/exresponsividade/">Exercício Responsividade</a>
+ </pre>
