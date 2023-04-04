@@ -3,7 +3,7 @@
  
 ## Módulo 01
  <pre>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex001/">Exercício 001</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex001/primeirohtml.html">Exercício 001</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex002/">Exercício 002</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex003/">Exercício 003</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex004/">Exercício 004</a>
@@ -23,11 +23,11 @@
  
 ## Módulo 02
  <pre>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/ex016/">Exercício 016</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/ex016/cor01.html">Exercício 016</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/ex017/">Exercício 017</a>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/ex018/">Exercício 018</a>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/ex019/">Exercício 019</a>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/ex020/">Exercício 020</a>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/ex021/">Exercício 021</a>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/exresponsividade/">Exercício Responsividade</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/ex018/fonte01.html">Exercício 018</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/ex019/seletor01.html">Exercício 019</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/ex020/pseudoclasse.html">Exercício 020</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/ex021/caixa01.html">Exercício 021</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-02/exresponsividade/responsivo.html">Exercício Responsividade</a>
  </pre>
