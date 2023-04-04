@@ -1,9 +1,7 @@
 # HTML-e-CSS
  Repositório com os exercicíos feitos do curso de [HTML5 e CSS3 do Guanabara](https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n) - **5 Módulos de 40 Horas** <br>
- **Desafios**
- <pre>
+ **Desafios** <br>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-02/d010/corrigido.html">Projeto Android</a>
- </pre>
  
 ## Módulo 01 - Primeiros Passo HTML + CSS
  <pre>
