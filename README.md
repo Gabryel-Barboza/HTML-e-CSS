@@ -11,7 +11,7 @@
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex004/">Exercício 004</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex005/">Exercício 005</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex006/">Exercício 006</a>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex007/">Exercício 007</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex007/html4.html">Exercício 007</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex008/">Exercício 008</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex008b/">Exercício 008b</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-01/ex009/">Exercício 009</a>
