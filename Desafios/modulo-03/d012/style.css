@@ -56,6 +56,11 @@ section p {
     padding: 10px 5px;
 }
 
+pre {
+    white-space: pre-line;
+    margin: 10px 0px;
+}
+
 section.fundo p {
     background-color: rgba(0, 0, 0, 0.300);
     color: white;
