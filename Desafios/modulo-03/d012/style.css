@@ -39,6 +39,7 @@ header {
 header h1 {
     font: normal bolder 9vw var(--fonte1);
     padding: 60px 0px 0px 0px;
+    font-variant: small-caps;
 }
 
 section {
@@ -79,3 +80,6 @@ footer {
     text-align: center;
     padding: 5px;
 }
+
+/*Anotações
+text-transform: uppercase;*/
