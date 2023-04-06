@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+div#bola {
+    margin: 30px auto;
+    border-radius: 50%;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.400);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-25px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+div#bola a{
+    display: block;
+    padding: 30px 0px;
+    text-decoration: none;
+    color: black;
+}
+
+div#bola a:hover {
+    text-decoration: underline;
+    color: gray;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <link rel="shortcut icon" href="../../../Imagens/cursoemvideo.ico" type="image/x-icon">
+    <style>
+        section#container {
+            height: 96vh;
+            padding: 10px;
+            background-color: purple;
+            background-image: url('imagens-cap19/target001.png');
+            background-size: 100% 100%;
+            position: relative; /*posição relativa por padrão*/
+        }
+
+        article#conteudo {
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            background-image: url('imagens-cap19/target001.png');
+            background-size: 100% 100%;
+            /*Alinhamento vertical*/
+            position: absolute;
+            /*ao colocar o posicionamento absoluto, a caixa ignora a posição das outras caixas e é configurada a partir de outras propriedades, isso em relação a posição original da sua caixa pai*/
+            left: 50%; /*distância borda da caixa pai até a esquerda, ou ponto 0, da própria caixa*/
+            top: 50%; /*distância topo até ponto 0 da caixa*/
+
+            /*Analisando a imagem ao lado, percebemos que ele centraliza o ponto 0 da caixa à caixa pai, por isso não está no meio*/
+
+            /*Retire o comando abaixo para analisar a imagem*/
+            transform: translate(-50%, -50%); /*eixo x, eixo y*/
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
