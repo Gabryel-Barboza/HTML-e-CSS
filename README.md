@@ -2,6 +2,7 @@
  Repositório com os exercicíos feitos do curso de [HTML5 e CSS3 do Guanabara](https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n) - **5 Módulos de 40 Horas** <br>
 ## Desafios
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-02/d010/corrigido.html">Projeto Android</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-03/d012/">Projeto Cordel</a>
  <br>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d001/d001.html">Desafio 001</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d002/">Desafio 002</a>
@@ -12,6 +13,7 @@
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d007/">Desafio 007</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d008/">Desafio 008</a>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d009/">Desafio 009</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-03/d011/">Desafio 011</a>
  
 ## Módulo 01 - Primeiros Passo HTML + CSS
  <pre>
