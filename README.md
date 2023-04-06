@@ -2,6 +2,16 @@
  Repositório com os exercicíos feitos do curso de [HTML5 e CSS3 do Guanabara](https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n) - **5 Módulos de 40 Horas** <br>
  **Desafios** <br>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-02/d010/corrigido.html">Projeto Android</a>
+ <br>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d001/d001.html">Desafio 001</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d002/">Desafio 001</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d003/">Desafio 001</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d004/">Desafio 001</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d005/">Desafio 001</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d006/">Desafio 001</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d007/">Desafio 001</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d008/">Desafio 001</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d009/">Desafio 001</a>
  
 ## Módulo 01 - Primeiros Passo HTML + CSS
  <pre>
