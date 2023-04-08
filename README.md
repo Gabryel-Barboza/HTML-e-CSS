@@ -51,6 +51,7 @@
 ## Módulo 03 - Colocando Um Protótipo No Ar
  <pre>
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-03/ex022/fundo001.html">Exercício 022</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Curso/modulo-03/ex023/tabela001.html">Exercício 023</a>
  </pre>
 
 ## Módulo 04 - Aprofundando Os Conhecimentos
