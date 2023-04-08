@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="shortcut icon" href="../../../Imagens/cursoemvideo.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative; /*fixando o cabeçalho na tabela*/
+        }
+
+        caption {
+            font: normal bold 1.5em Arial, Helvetica, sans-serif;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(2n-1) { /*Pula 2 em 2, pega o anterior*/
+            background-color: lightgray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        /*Todo elemento td, pula o 1 e seleciona o 2*/
+        td:nth-child(2) {
+            text-align: right;    
+        }
+
+        thead, tfoot {
+            background-color: rgb(27, 27, 27);
+            color: white;
+        }
+
+        thead{
+            position: sticky; /*colar em alguma posição*/
+            top: -1px;
+            background-color: rgb(27, 27, 27);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!--Anatomia para tabelas grandes
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+        -->
+        <table>
+            <caption>População por Unidade Federativa</caption>
+            <thead>
+                <tr>
+                    <!--Scope = escopo do título, col = mesma coluna-->
+                    <th scope="col">Estado</th> <!--Título-->
+                    <th scope="col" style="width: 100px;">População</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>São Paulo</td>
+                    <td>46 024 937</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>20 732 660</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td>16 615 526</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td>14 659 023</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td>11 835 379</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Sul</td>
+                    <td>11 088 065</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td>9 051 113</td>
+                </tr>
+                <tr>
+                    <td>Ceará</td>
+                    <td>8 936 431</td>
+                </tr>
+                <tr>
+                    <td>Pará</td>
+                    <td>8 442 962</td>
+                </tr>
+                <tr>
+                    <td>Santa Catarina</td>
+                    <td>7 762 154</td>
+                </tr>
+                <tr>
+                    <td>Goiás</td>
+                    <td>6 950 976</td>
+                </tr>
+                <tr>
+                    <td>Maranhão</td>
+                    <td>6 800 605</td>
+                </tr>
+                <tr>
+                    <td>Espírito Santo</td>
+                    <td>4 108 508</td>
+                </tr>
+                <tr>
+                    <td>Paraíba</td>
+                    <td>4 030 961</td>
+                </tr>
+                <tr>
+                    <td>Amazonas</td>
+                    <td>3 952 262</td>
+                </tr>
+                <tr>
+                    <td>Mato Grosso</td>
+                    <td>3 784 239</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Norte</td>
+                    <td>3 303 953</td>
+                </tr>
+                <tr>
+                    <td>Piauí</td>
+                    <td>3 270 174</td>
+                </tr>
+                <tr>
+                    <td>Alagoas</td>
+                    <td>3 125 254</td>
+                </tr>
+                <tr>
+                    <td>Distrito Federal</td>
+                    <td>2 923 369</td>
+                </tr>
+                <tr>
+                    <td>Mato Grosso do Sul</td>
+                    <td>2 833 742</td>
+                </tr>
+                <tr>
+                    <td>Sergipe</td>
+                    <td>2 211 868</td>
+                </tr>
+                <tr>
+                    <td>Rondônia</td>
+                    <td>1 616 379</td>
+                </tr>
+                <tr>
+                    <td>Tocantins</td>
+                    <td>1 584 306</td>
+                </tr>
+                <tr>
+                    <td>Acre</td>
+                    <td>829 780</td>
+                </tr>
+                <tr>
+                    <td>Amapá</td>
+                    <td>774 268</td>
+                </tr>
+                <tr>
+                    <td>Roraima</td>
+                    <td>634 805</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <!--escopo de título, row = mesma linha-->
+                    <th scope="row">Total de Habitantes</th>
+                    <td><strong>207883699</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, minima perspiciatis. Est fuga cum et at illo sunt voluptas reprehenderit dolor distinctio numquam? Reprehenderit porro eaque voluptate, accusamus tempora labore sit earum delectus sunt, distinctio ab quis facere ullam perferendis repellendus repudiandae ipsa officiis odit dicta ex exercitationem error? Harum quasi esse molestiae aliquid, consectetur natus quos quam possimus laborum, necessitatibus temporibus quibusdam voluptas, optio vitae error. Error voluptates corrupti earum aperiam! Optio quaerat fugiat molestiae suscipit voluptas dolor rem, expedita libero, ratione quasi magnam omnis ab. Aperiam ratione minima et laboriosam ab nihil assumenda vel laudantium, asperiores, rerum eveniet corrupti autem! Asperiores commodi fuga non omnis facilis quam, aperiam possimus nihil rerum nemo, impedit sed ipsum neque adipisci dignissimos, veniam vitae consectetur accusamus voluptates animi molestias mollitia! Incidunt possimus nostrum minima quas perspiciatis, quasi porro corporis temporibus veritatis harum obcaecati dignissimos consequuntur suscipit veniam hic, id accusantium consectetur architecto libero laboriosam fugiat dolor cupiditate odio fugit. Id mollitia aspernatur, architecto consequuntur fuga autem qui, voluptatum tempore non rem perferendis eos reiciendis amet nihil sint. Minus culpa ab quos voluptates magni eius adipisci eos quibusdam dolores pariatur, rerum doloribus rem aperiam nisi cumque aspernatur reprehenderit reiciendis veritatis dignissimos vel possimus! Exercitationem natus laudantium ut sed blanditiis enim delectus quasi cupiditate cum repellat corporis saepe, nihil libero modi dolorem quaerat esse porro, repudiandae odit eius impedit a eum minus. Totam culpa numquam incidunt nobis quo quae blanditiis in quia molestias et beatae odit id, veniam perferendis ad asperiores, eos aut, pariatur maxime sunt. Eveniet, sint! Unde, consequatur nemo eum asperiores placeat in quae molestiae ipsa molestias saepe officiis nostrum corporis fugit laudantium necessitatibus vel excepturi cum rem aliquid corrupti animi officia culpa dicta hic. Iure, dolorem quis eaque numquam nisi, laborum ab esse quibusdam, ratione odit quod sit assumenda voluptatem quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur harum beatae deserunt error? Facere aut mollitia non at, amet ullam ducimus, similique molestiae sunt illum vitae optio explicabo rerum asperiores? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est non voluptatem, vel quia corrupti similique porro aut officia soluta fuga, voluptas possimus quos sint a dolorum ullam unde aspernatur sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quibusdam iure quisquam aliquam commodi accusamus rem aperiam officia. Eligendi tempore consequatur quo ea eveniet, itaque est sequi ut repellendus expedita!</p>
+</body>
+</html>
