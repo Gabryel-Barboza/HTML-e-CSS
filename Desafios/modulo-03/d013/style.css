@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+div#bola {
+     width:120px;
+     height: 120px;
+     background-color: rgb(205, 228, 248);
+     border-radius: 50%;
+     text-align: center;
+     margin: 30px 150px;
+     animation: float 3s ease-in-out infinite;
+}
+
+div a {
+    display: block;
+    padding: 40px 10px;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-25px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
