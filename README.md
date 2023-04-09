@@ -6,18 +6,18 @@
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-03/d012/">Projeto Cordel</a>
  <br>
  <hr>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d001/d001.html">Desafio 001</a>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d002/">Desafio 002</a>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d003/">Desafio 003</a>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d004/">Desafio 004</a>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d005/">Desafio 005</a>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d006/">Desafio 006</a>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d007/">Desafio 007</a>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d008/">Desafio 008</a>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d009/">Desafio 009</a>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-03/d011/">Desafio 011</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d001/d001.html">Mensagens</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d002/">Imagens</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d003/">Mapa Mundi</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d004/">Emojis Favoritos</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d005/">Redes Sociais</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d006/">Tags em HTML</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d007/">Imagem Flexível</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d008/">Navegação</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d009/">Cursos</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-03/d011/">Astronauta</a>
  <br>
- <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-03/d013/">Desafio 013</a>
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-03/d013/">Mesclagem de Células</a>
  
 ## Módulo 01 - Primeiros Passo HTML + CSS
  <pre>
