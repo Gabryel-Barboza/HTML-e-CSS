@@ -26,3 +26,50 @@ div a {
         transform: translateY(0);
     }
 }
+/*Criando um teclado*/
+.teclado {
+    width: 1000px;
+    background-color: rgb(238, 237, 237);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.teclado td {
+    width: 100px;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+/*Efeito de Clique*/
+
+.teclado td:hover {
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.400);
+}
+
+.teclado td:active {
+    box-shadow: inset 0px 0px 5px rgb(0, 0, 0);
+}
+
+/*prioridade para as teclas de atalho*/
+tr > .atalho {
+    padding: 3px;
+}
+
+span#fn {
+    padding: 3px;
+    border-radius: 2px;
+    background-color: lightgray;
+}
+
+td#up {
+    display: inline-block;
+    padding: 0px;
+    height: 26px;
+}
+
+
+td#down {
+    display: inline-block;
+    padding: 0px;
+    height: 26px;
+}

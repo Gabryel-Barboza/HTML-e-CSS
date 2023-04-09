@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mesclagem de Células</title>
     <link rel="shortcut icon" href="../../../Imagens/cursoemvideo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <style>
         table {
             width: 500px;
@@ -16,6 +17,7 @@
             padding: 10px;
             text-align: center;
         }
+
     </style>
 </head>
 <body>
@@ -46,42 +48,43 @@
         </tr>
     </table>
     <h1>Extra</h1>
-    <table>
+    <p>Abaixo está uma representação do meu teclado compacto:</p>
+    <table class="teclado">
         <tr>
-            <td class="utilidade">Esc</td>
-            <td class="utilidade">F1</td>
-            <td class="utilidade">F2</td>
-            <td class="utilidade">F3</td>
-            <td class="utilidade">F4</td>
-            <td class="utilidade">F5</td>
-            <td class="utilidade">F6</td>
-            <td class="utilidade">F7</td>
-            <td class="utilidade">F8</td>
-            <td class="utilidade">F9</td>
-            <td class="utilidade">F10</td>
-            <td class="utilidade">F11</td>
-            <td class="utilidade">F12</td>
-            <td class="utilidade">INSERT</td>
-            <td class="utilidade">DELETE</td>
+            <td class="atalho">Esc</td>
+            <td class="atalho">F1</td>
+            <td class="atalho">F2</td>
+            <td class="atalho">F3</td>
+            <td class="atalho">F4</td>
+            <td class="atalho">F5</td>
+            <td class="atalho">F6</td>
+            <td class="atalho">F7</td>
+            <td class="atalho">F8</td>
+            <td class="atalho">F9</td>
+            <td class="atalho">F10</td>
+            <td class="atalho">F11</td>
+            <td class="atalho">F12</td>
+            <td class="atalho">INSERT</td>
+            <td class="atalho">DELETE</td>
         </tr>
         <tr>
-            <td id="aspas">" <br>'</td>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-            <td>0</td>
-            <td>-</td>
-            <td>=</td>
-            <td id="bksp">Backspace</td>
+            <td>"<br>'</td>
+            <td>!<br>1</td>
+            <td>@<br>2</td>
+            <td>#<br>3</td>
+            <td>$<br>4</td>
+            <td>%<br>5</td>
+            <td>¨<br>6</td>
+            <td>&<br>7</td>
+            <td>*<br>8</td>
+            <td>(<br>9</td>
+            <td>)<br>0</td>
+            <td>_<br>-</td>
+            <td>+<br>=</td>
+            <td colspan="2">Backspace</td>
         </tr>
         <tr>
-            <td id="tab">Tab</td>
+            <td>Tab</td>
             <td>Q</td>
             <td>W</td>
             <td>E</td>
@@ -92,61 +95,53 @@
             <td>I</td>
             <td>O</td>
             <td>P</td>
-            <td>` <br>´</td>
-            <td>{ <br>[</td>
-            <td></td>
-            <td></td>
+            <td>`<br>´</td>
+            <td>{<br>[</td>
+            <td rowspan="2">Enter</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Caps<br>Lock</td>
+            <td>A</td>
+            <td>S</td>
+            <td>D</td>
+            <td>F</td>
+            <td>G</td>
+            <td>H</td>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+            <td>Ç</td>
+            <td>^<br>~</td>
+            <td>}<br>]</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Shift</td>
+            <td>|<br>\</td>
+            <td>Z</td>
+            <td>X</td>
+            <td>C</td>
+            <td>V</td>
+            <td>B</td>
+            <td>N</td>
+            <td>M</td>
+            <td>&lt;<br>,</td>
+            <td>&gt;<br>.</td>
+            <td>:<br>;</td>
+            <td>?<br>/</td>
+            <td>Shift</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Ctrl</td>
+            <td><span id="fn">FN</span></td>
+            <td>Win</td>
+            <td>Alt</td>
+            <td colspan="5"></td>
+            <td>Alt Gr</td>
+            <td>Ctrl</td>
+            <td>&#x25C0;</td>
+            <td id="up">&#x25B2;</td>
+            <td id="down">&#x25BC;</td>
+            <td>&#x25B6;</td>
         </tr>
     </table>
 </body>
