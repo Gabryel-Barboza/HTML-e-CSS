@@ -17,6 +17,8 @@
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-01/d009/">Cursos</a> - 
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-03/d011/">Astronauta</a> - 
  <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-03/d013/">Mesclagem de Células</a> - 
+ <a href="https://gabryel-barboza.github.io/HTML-e-CSS/Desafios/modulo-03/d014/">Tabelas II</a> - 
+ 
  
 ## Módulo 01 - Primeiros Passo HTML + CSS
  <pre>
