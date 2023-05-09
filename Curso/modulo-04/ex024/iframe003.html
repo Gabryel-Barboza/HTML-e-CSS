@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframes</title>
+    <link rel="shortcut icon" href="../../../Imagens/cursoemvideo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Clique nos links abaixo e veja o conteúdo.</p>
+
+    <ul>
+        <li><a href="paginas extras/pagina001.html" rel="next" target="quadro">Primeira página</a></li>
+        <li><a href="paginas extras/pagina002.html" rel="next" target="quadro">Segunda página</a></li>
+        <li><a href="paginas extras/pagina003.html" rel="next" target="quadro">Terceira página</a></li>
+    </ul>
+    <p>Voluptas ad hic veniam eveniet vel consequatur minima blanditiis architecto delectus vero doloremque non nihil sed, illum tenetur, incidunt quae, labore ab odio laboriosam nesciunt fuga ratione! Dolore, eum porro?</p>
+    <iframe src="" id="tela" name="quadro"> <!--param name dá um nome pro iframe, usado em conjunto com target em links-->
+        <p>Infelizmente, seu navegador não é compatível</p>
+    </iframe>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium ex eveniet sit fugit, sed officia, ipsa fuga ea accusamus nesciunt adipisci, repellat aperiam minus maiores inventore nisi. Voluptatibus, repellendus adipisci!</p>
+    <div id="bola"><a href="#">Quarta Página</a></div>
+</body>
+</html>

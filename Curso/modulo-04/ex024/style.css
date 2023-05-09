@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+div#bola {
+    padding: 40px 0px 0px 0px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 30px auto;
+    width: 100px;
+    height: 70px;
+    background-color: azure;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
