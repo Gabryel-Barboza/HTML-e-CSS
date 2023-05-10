@@ -10,6 +10,7 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(211, 222, 232);
         }
 
         iframe#tela {
@@ -29,10 +30,25 @@
         <li><a href="paginas extras/pagina003.html" rel="next" target="quadro">Terceira página</a></li>
     </ul>
     <p>Voluptas ad hic veniam eveniet vel consequatur minima blanditiis architecto delectus vero doloremque non nihil sed, illum tenetur, incidunt quae, labore ab odio laboriosam nesciunt fuga ratione! Dolore, eum porro?</p>
-    <iframe src="" id="tela" name="quadro"> <!--param name dá um nome pro iframe, usado em conjunto com target em links-->
+    <!--param name dá um nome pro iframe, usado em conjunto com target em links
+    param srcdoc para "embedar" código html, usado para conteúdos estáticos-->
+    <iframe id="tela" name="quadro" srcdoc="<h1>Escolha um link</h1> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, suscipit.</p> <img src='../../../Imagens/cursoemvideo-logo-branca.png'>"> 
         <p>Infelizmente, seu navegador não é compatível</p>
     </iframe>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium ex eveniet sit fugit, sed officia, ipsa fuga ea accusamus nesciunt adipisci, repellat aperiam minus maiores inventore nisi. Voluptatibus, repellendus adipisci!</p>
-    <div id="bola"><a href="#">Quarta Página</a></div>
+    <div id="bola"><a href="iframe004.html">Quarta Página</a></div>
+
+    <!--Revisão do Tio Guanabara
+
+    Inconvenientes do iframe
+
+    - Dificuldades de acesso ao conteúdo pelos mecanismos de busca;
+
+    - Baixa acessibilidade (dificuldades de acesso ao conteúdo pelos leitores de tela, para deficientes visuais);
+
+    - Baixa usabilidade (navegador ou usuário acabam se confundindo ao abrir o iframe);
+
+    - Baixa segurança (abre as portas do seu site para outros sites, que podem usar de técnicas invasivas)
+-->
 </body>
 </html>
